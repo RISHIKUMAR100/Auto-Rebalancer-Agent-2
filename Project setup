@@ -1,0 +1,16 @@
+/defi-agent/
+├── backend/
+│   ├── app.py                ← Flask server
+│   ├── agent.py              ← GPT logic
+│   ├── rebalance.py          ← Portfolio logic
+│   ├── executor.py           ← Swap executor
+│   ├── config.py             ← Wallet + Aptos client
+│   └── requirements.txt
+└── frontend/
+    ├── src/
+    │   ├── App.jsx           ← Dashboard
+    │   ├── components/
+    │   │   └── WalletCard.jsx
+    │   └── api/
+    │       └── agent.js      ← API calls to Flask
+    └── tailwind.config.js
